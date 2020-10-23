@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pikadu - main</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Подключили стили -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <!-- шапка сайта -->
+ <header class="header">
+   <div class="header-wrapper">
+     <a href="/" class="header-logo">
+      <img class="header-logo-img" src="img\logo.svg" alt="logo: Pikadu" class="logo"></a>
+     <nav class="header-nav">
+       <ul class="header-menu">
+         <li class="header-menu-item"><a href="#" class="header-menu-link">Свежее</a></li>
+         <li class="header-menu-item"><a href="#" class="header-menu-link">Лучшее</a></li>
+         <li class="header-menu-item"><a href="#" class="header-menu-link">Горячее</a></li>
+         <li class="header-menu-item"><a href="#" class="header-menu-link">Подписки</a></li>
+       </ul>
+     </nav>
+<div class="input-group search">
+  <input type="search" class="search-input" placeholder="Поиск по сайту">
+  <button class="search-button">
+    <img src="img/search.svg" alt="icon: search" class="search-icon">
+  </button>
+</div>
+<!-- /.input-group -->
+  <a href="#" class="menu-toggle" id="menu-toggle">
+  <span></span>
+  <span></span>
+  <span></span>
+  </a>
+   </div>
+   <!-- /.header-wrapper -->
+ </header>
+
+ <div class="content">
+   <main class="posts">
+    <section class="post">
+  <div class="post-body">
+    <h2 class="post-title">Шестёрка воронов</h2>
+  <p class="post-text">У этой книги есть все, что нужно для отличного подросткового фэнтези. Увлекательный, динамичный сюжет со множеством неожиданных поворотов. Великолепные персонажи, яркие, характерные, со сложными судьбами, которые раскрываются постепенно по мере развития событий, тем самым делая историю еще более интересной и многогранной.
+    Приключение здесь следует за приключением, остросюжетная заварушка за остросюжетной заварушкой, заскучать с этой книгой точно не получится. Этому способствует и приятная, очень комфортная для чтения стилистика автора.</p>
+  <p class="post-text">Порадовал и емкий, всесторонне задуманный и зрелищно нарисованный фэнтезийный мир. Жаль только, что пока удалось побывать далеко не во всех имеющихся локациях, но, надеюсь, другие книги цикла это исправят. Пока же за глаза хватило порочной жемчужины Керчии – Кеттердама, города торговцев и преступников (и иногда безумно сложно отделить одних от других) и холодного, фанатичного Фьерда с его ослепительным Ледовым Двором.</p>
+  <p class="post-text">В общем все на своих местах, все отлично продумано и грамотно реализовано. Читалось с большим удовольствием. Единственное, что немного напрягло – частое поведенческое несоответствие героев своему возрасту. Приходилось все время напоминать себе, что перед нами шестнадцати-семнадцатилетние юноши и девушки, настолько их поступки и реакции соответствовали гораздо более зрелым личностям. Я, конечно, понимаю, что условия на грани выживания, в которых им пришлось побывать, способствуют, так сказать, быстрому взрослению, но даже со скидкой на это, все равно тут как-то уж совсем мало подросткового поведения. Это ничего особо не испортило, но некоторый рассинхрон присутствовал.</p>
+  <p class="post-text">А в остальном – все супер, хочется поскорее взяться за продолжение…</p>
+  <div class="tags">
+    <a href="#" class="tag">#свежее</a>
+    <a href="#" class="tag">#новое</a>
+    <a href="#" class="tag">#горячее</a>
+    <a href="#" class="tag">#моё</a>
+    <a href="#" class="tag">#шестеркаворонов</a>
+    <a href="#" class="tag">#либардуго</a>
+    <a href="#" class="tag">#фэнтези</a>
+  </div>
+  <!-- /.tags -->
+  </div>
+  <!-- /.post-body -->
+  <div class="post-footer">
+    <div class="post-buttons">
+      <button class="post-button likes">
+      <svg width="19" height="20"  class="icon icon-like">
+        <use xlink:href="img/icons.svg#likes"></use>
+      </svg>
+      <span class="likes-counter">228</span>
+      </button>
+      <!-- /.likes -->
+      <button class="post-button comments">
+        <svg width="21" height="21" class="icon icon-comment">
+          <use xlink:href="img/icons.svg#comments"></use>
+        </svg>
+        <span class="comments-counter">89</span>
+      </button>
+      <!-- /.comments -->
+      <button class="post-button save">
+        <svg width="19" height="19" class="icon icon-save">
+          <use xlink:href="img/icons.svg#save"></use>
+        </svg>
+      </button>
+      <!-- /.save -->
+      <button class="post-button share">
+        <svg width="17" height="19" class="icon icon-share">
+          <use xlink:href="img/icons.svg#share"></use>
+        </svg>
+      </button>
+      <!-- /.share -->
+    </div>
+    <!-- /.post-buttons -->
+    <div class="post-author">
+      <div class="author-about">
+        <a href="#" class="author-username">sassy25</a>
+        <span class="post-time">25 минут назад</span>
+      </div>
+      <!-- /.author-about -->
+      <a href="#" class="author-link"><img src="img\avatar.jfif" alt="avatar" class="author-avatar"></a>
+      <!-- /.author-link -->
+    </div>
+    <!-- /.post-author -->
+  </div>
+    </section>
+      <!-- /.post -->
+    <section class="post">
+        <div class="post-body">
+          <h2 class="post-title">Кто нашёл, берёт себе</h2>
+        <p class="post-text">Вторая книга из трилогии про детектива Билла Ходжеса.</p>
+        <p class="post-text">Книги писателя Джона Ротстайна про Джимми Голда очень полюбились молодому человеку по имени Моррис Беллами. Начав читать истории про Джимми Голда, Моррис обожествляет этого героя. Проникает в дом к писателю и убивает его, забрав все черновики неизданных книг и наличные. Моррис закапывает добычу во дворе своего дома, а после его сажают в тюрьму на 30 лет. Все годы в тюрьме помогают выжить только мысли о черновиках. Перед тем, как Моррис выходит из тюрьмы, клад находит школьник по имени Питер Зауберс. Мальчишка тайно помогает своей семье, присылая анонимно деньги на домашний адрес. Деньги имеют свойство заканчиваться и Пит решает продать черновики. Вот тут-то все самое интересное и начинается :) Чуть позже присоединяется к делу и сам Билл Ходжес со своей помощницей Холли.</p>
+        <p class="post-text">Слушал книгу в исполнении Игоря Князева. Слов нет. Что Кинга люблю, что Князева. </p>
+        <p class="post-text">Идеально!</p>
+        <div class="tags">
+          <a href="#" class="tag">#интересное</a>
+          <a href="#" class="tag">#мистика</a>
+          <a href="#" class="tag">#горячее</a>
+          <a href="#" class="tag">#стивенкинг</a>
+          <a href="#" class="tag">#детектив</a>
+        </div>
+        <!-- /.tags -->
+        </div>
+        <!-- /.post-body -->
+        <div class="post-footer">
+          <div class="post-buttons">
+            <button class="post-button likes">
+            <svg width="19" height="20"  class="icon icon-like">
+              <use xlink:href="img/icons.svg#likes"></use>
+            </svg>
+            <span class="likes-counter">101</span>
+            </button>
+            <!-- /.likes -->
+            <button class="post-button comments">
+              <svg width="21" height="21" class="icon icon-comment">
+                <use xlink:href="img/icons.svg#comments"></use>
+              </svg>
+              <span class="comments-counter">0</span>
+            </button>
+            <!-- /.comments -->
+            <button class="post-button save">
+              <svg width="19" height="19" class="icon icon-save">
+                <use xlink:href="img/icons.svg#save"></use>
+              </svg>
+            </button>
+            <!-- /.save -->
+            <button class="post-button share">
+              <svg width="17" height="19" class="icon icon-share">
+                <use xlink:href="img/icons.svg#share"></use>
+              </svg>
+            </button>
+            <!-- /.share -->
+          </div>
+          <!-- /.post-buttons -->
+          <div class="post-author">
+            <div class="author-about">
+              <a href="#" class="author-username">reader_andrey</a>
+              <span class="post-time">26 минут назад</span>
+            </div>
+            <!-- /.author-about -->
+            <a href="#" class="author-link"><img src="img\avatar2.jfif" alt="avatar" class="author-avatar"></a>
+            <!-- /.author-link -->
+          </div>
+          <!-- /.post-author -->
+        </div>
+    </section>
+      <!-- /.post -->
+    <section class="post">
+  <div class="post-body">
+    <h2 class="post-title">Пустая могила</h2>
+  <p class="post-text">Ну что тут сказать… отличное завершение отличного цикла. Все настолько на своих местах, что даже и покритиковать нечего.</p>
+  <p class="post-text">Конечно, в отдельных местах происходящее выглядит немножечко наивным, но для своей целевой аудитории все получилось как нельзя лучше. И персонажи яркие и тщательно прорисованные, и приключения увлекательные. А то, что развитие интриги частично можно было предсказать, так и это тоже ничего особо не испортило, да и сюрпризов по ходу дела тоже было немало.</p>
+  <p class="post-text">Еще хочется похвалить мастерскую проработку деталей истории. Каждая сюжетная ниточка здесь выверена и согласована. Иногда казалось: недосмотрел автор, противоречит себе… ан, нет, тут же снова все логично раскладывается по полочкам.</p>
+  <p class="post-text">Романическая линия очень понравилась. В современной литературе (даже для подростков) редко можно встретить настолько ненавязчивые и чистые отношения, не приукрашенные чувственными сценами на потребу неискушенному читателю или, того больше, откровенным эротизмом, и в то же время отношения глубокие и искренние.</p>
+  <p class="post-text">Ну и финал тоже откровенно порадовал. Очень опасалась, что автор в обязательном порядке пожертвует одним из ключевых положительных персонажей, или, наоборот, нарисует нам приторно-слащавый хеппи-энд, когда наши победили, враги повержены, а все проблемы решены. К счастью, здесь как раз тот самый случай, когда получилась золотая середина. Основное зло, конечно, повержено, но и легкий оттенок грусти тоже присутствует.</p>
+  <p class="post-text">Да и Проблема пока никуда не делась, а значит агентству «Локвуд и компания» предстоит еще немало поработать, очищая мир от непрошенных Гостей. Правда, уже без нас… и это тоже грустно. Хотя и тут стоит поаплодировать Джонатану Страуду, что сумел вовремя остановиться, не превращая великолепный замысел в коммерческий мыльный проект.</p>
+  <p class="post-text">В общем цикл записан в любимые, и я точно буду скучать по его героям…</p>
+  <div class="tags">
+    <a href="#" class="tag">#цикл</a>
+    <a href="#" class="tag">#любимое</a>
+    <a href="#" class="tag">#новое</a>
+    <a href="#" class="tag">#горячее</a>
+    <a href="#" class="tag">#локвудикомпания</a>
+    <a href="#" class="tag">#детективноефэнтези</a>
+  </div>
+  <!-- /.tags -->
+  </div>
+  <!-- /.post-body -->
+  <div class="post-footer">
+    <div class="post-buttons">
+      <button class="post-button likes">
+      <svg width="19" height="20"  class="icon icon-like">
+        <use xlink:href="img/icons.svg#likes"></use>
+      </svg>
+      <span class="likes-counter">322</span>
+      </button>
+      <!-- /.likes -->
+      <button class="post-button comments">
+        <svg width="21" height="21" class="icon icon-comment">
+          <use xlink:href="img/icons.svg#comments"></use>
+        </svg>
+        <span class="comments-counter">65</span>
+      </button>
+      <!-- /.comments -->
+      <button class="post-button save">
+        <svg width="19" height="19" class="icon icon-save">
+          <use xlink:href="img/icons.svg#save"></use>
+        </svg>
+      </button>
+      <!-- /.save -->
+      <button class="post-button share">
+        <svg width="17" height="19" class="icon icon-share">
+          <use xlink:href="img/icons.svg#share"></use>
+        </svg>
+      </button>
+      <!-- /.share -->
+    </div>
+    <!-- /.post-buttons -->
+    <div class="post-author">
+      <div class="author-about">
+        <a href="#" class="author-username">fantasssia55</a>
+        <span class="post-time">30 минут назад</span>
+      </div>
+      <!-- /.author-about -->
+      <a href="#" class="author-link"><img src="img\avatar3.jfif" alt="avatar" class="author-avatar"></a>
+      <!-- /.author-link -->
+    </div>
+    <!-- /.post-author -->
+  </div>
+    </section>
+      <!-- /.post -->
+   </main>
+   <!-- /.posts -->
+
+   <aside class="sidebar">
+      <div class="user">
+        <a href="#" class="user-info">
+          <img width="40px" height="40px" src="img/avatar4.jfif" alt="photo: user" class="user-avatar">
+          <span class="user-name">angela_tribianny</span> 
+          <!-- /.user-name -->
+        </a>
+        <!-- /.user-info -->
+        <a href="#" class="exit">
+          <svg class="icon icon-exit">
+            <use xlink:href="img/icons.svg#poweroff"></use>
+          </svg>
+        </a>
+        <!-- /.exit -->
+      </div>
+      <!-- /.user -->
+      <nav class="sidebar-nav">
+        <ul class="sidebar-menu">
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Ответы </a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Комментарии</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link active">Оценки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Сохраненное</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Подписки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Заметки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Игнор-лист</a>
+          </li>
+        </ul>
+        <!-- /.sidebar-menu -->
+      </nav>
+      <!-- /.sidebar-nav -->
+
+      <a href="new-post.html" class="button button-new-post">
+        <svg class="icon icon-fire">
+          <use xlink:href="img/icons.svg#Fire"></use>
+        </svg>
+          Опубликовать пост
+      </a>
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Комментарий дня</h2>
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+          <h3 class="card-body-title">Как обмануть банкомат, если вы хотите снять больше наличных</h3>
+          <p class="card-text">Таким образом укрепление и развитие структуры требуют от нас анализа форм развития. Не следует, однако забывать, что реализация намеченных плановых заданий требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же консультация...</p>
+        </div>
+        <!-- /.card-body -->
+      </div>
+      <!-- /.card -->
+      <a href="#" class="promo"></a>
+   </aside>
+   <!-- /.sidebar -->
+ </div>
+ <!-- /.content -->
+ <script src="js/main.js"></script>
+</body>
+</html>
